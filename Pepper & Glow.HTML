@@ -56,6 +56,12 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin-bottom: 1rem;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #ff6b9d, 0 0 10px #ffa07a; }
+            100% { text-shadow: 0 0 20px #ff6b9d, 0 0 30px #ffa07a; }
         }
 
         .tagline {
@@ -139,6 +145,13 @@
             text-decoration: none;
             border: none;
             cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-order:hover {
+            transform: scale(1.1);
+            background: linear-gradient(135deg, #ffa07a, #ff6b9d);
+            box-shadow: 0 10px 20px rgba(255,107,157,0.4);
         }
 
         /* FEATURES */
@@ -189,9 +202,18 @@
             margin-bottom: 0.5rem;
         }
 
+        footer {
+            background: rgba(255,255,255,0.03);
+            padding: 2rem;
+            text-align: center;
+            color: #ffb3c6;
+            margin-top: 5rem;
+        }
+
         @media (max-width: 768px) {
             .logo { font-size: 2.5rem; }
             .tagline { font-size: 1.2rem; }
+            .products-grid { grid-template-columns: 1fr; gap: 2rem; }
         }
     </style>
 </head>
@@ -213,7 +235,7 @@
         <div class="products-grid">
 
             <div class="product-card">
-                <img src="C:\Users\saafi\OneDrive\Pictures\pepper-glow\bain-huile.jpg.jpeg" class="product-image" alt="Bain d'huile au piment">
+                <img src="C:\Users\saafi\OneDrive\Pictures\REDGLOW\bain-huile.jpg.jpeg" class="product-image" alt="Bain d'huile au piment">
                 <div class="product-info">
                     <h3 class="product-name">Bain d'Huile au Piment 🌶️</h3>
                     <p class="product-desc">
@@ -227,7 +249,7 @@
             </div>
 
             <div class="product-card">
-                <img src="C:\Users\saafi\OneDrive\Pictures\pepper-glow\lip-oil.jpg.jpeg" class="product-image" alt="Lip oil repulpant">
+                <img src="C:\Users\saafi\OneDrive\Pictures\REDGLOW\lip-oil.jpg.jpeg" class="product-image" alt="Lip oil repulpant">
                 <div class="product-info">
                     <h3 class="product-name">Lip Oil Repulpant 💋</h3>
                     <p class="product-desc">
@@ -271,11 +293,15 @@
         <p class="contact-info">📍 Tunis, Tunisie</p>
     </section>
 
+    <footer>
+        &copy; 2025 REDGLOW 🌶️ - Tous droits réservés
+    </footer>
+
     <script>
         function orderProduct(product, price) {
             const phone = "21612345678";
-            const message = Bonjour, je souhaite commander ${product} (${price} DT);
-            window.open(https://wa.me/${phone}?text=${encodeURIComponent(message)}, "_blank");
+            const message = `Bonjour, je souhaite commander ${product} (${price} DT)`;
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, "_blank");
         }
     </script>
 
