@@ -1,243 +1,404 @@
-<!doctype html>
+<div class="product-card">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAHgAVADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlbaWmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii<!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Pepper & Glow — Boutique</title>
-  <meta name="description" content="Commander des soins naturels à base de piment du Cap Bon — Pepper & Glow" />
-  <style>
-    :root{--bg:#fafaf8;--card:#fff;--accent:#c94b37;--accent-2:#ff7b4a;--muted:#6b6b6b;--glass:rgba(255,255,255,0.6)}
-    *{box-sizing:border-box}
-    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial; margin:0;background:linear-gradient(180deg,#fbfbfa,#f7fff5);color:#111}
-    .wrap{max-width:1100px;margin:28px auto;padding:18px}
-    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
-    .logo{display:flex;align-items:center;gap:10px}
-    .logo .mark{width:52px;height:52px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800}
-    h1{margin:0;font-size:20px}
-    p.lead{margin:0;color:var(--muted);font-size:14px}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepper & Glow 🌶️ - Beauté Naturelle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .main{display:grid;grid-template-columns:1fr 360px;gap:20px}
-    @media (max-width:980px){.main{grid-template-columns:1fr}.cart-panel{order:-1}}
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a0a0f 0%, #4a1428 100%);
+            color: #fff;
+            overflow-x: hidden;
+        }
 
-    .catalog{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
-    @media (max-width:680px){.catalog{grid-template-columns:1fr}}
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
 
-    .card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 6px 24px rgba(16,24,40,0.06)}
-    .product-img{width:100%;height:160px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#fff,#fff7f2);color:#c95a44;font-weight:700}
-    .product-title{font-weight:700;margin:8px 0 6px}
-    .price{font-size:16px;color:var(--accent-2);font-weight:800}
-    .meta{font-size:13px;color:var(--muted)}
-    .controls{display:flex;gap:8px;align-items:center;margin-top:10px}
-    .controls button{background:var(--accent);color:white;border:none;padding:8px 10px;border-radius:8px;cursor:pointer}
-    .controls .qty{display:flex;align-items:center;gap:8px}
-    input[type="number"]{width:64px;padding:6px;border-radius:8px;border:1px solid #eee}
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,105,135,0.1) 0%, transparent 70%);
+            animation: pulse 8s ease-in-out infinite;
+        }
 
-    .cart-panel{position:relative}
-    .cart{position:sticky;top:18px;background:var(--card);padding:16px;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06)}
-    .cart h3{margin:0 0 8px}
-    .cart-list{max-height:300px;overflow:auto;margin-bottom:10px}
-    .cart-item{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px dashed #f0f0f0}
-    .cart-item:last-child{border-bottom:0}
-    .cart-item .meta{font-size:13px}
-    .totals{display:flex;justify-content:space-between;font-weight:700;margin-top:8px}
-    .checkout{margin-top:12px;display:grid;gap:10px}
-    .checkout input, .checkout textarea, .checkout select{width:100%;padding:10px;border:1px solid #eee;border-radius:8px}
-    .btn-primary{background:var(--accent-2);color:white;border:none;padding:12px;border-radius:10px;font-weight:800;cursor:pointer}
-    .btn-secondary{background:transparent;border:1px solid #eee;padding:10px;border-radius:10px;cursor:pointer}
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 0.8; }
+        }
 
-    footer{text-align:center;margin-top:18px;color:var(--muted);font-size:13px}
-  </style>
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+            animation: glow 3s ease-in-out infinite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        @keyframes glow {
+            0%, 100% { filter: drop-shadow(0 0 20px rgba(255,107,157,0.5)); }
+            50% { filter: drop-shadow(0 0 40px rgba(255,107,157,0.8)); }
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: #ffb3c6;
+            margin-bottom: 3rem;
+            font-weight: 300;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(-20px); }
+        }
+
+        .products-section {
+            padding: 5rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 4rem;
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+            margin-bottom: 4rem;
+        }
+
+        .product-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 30px;
+            overflow: hidden;
+            transition: all 0.5s ease;
+            border: 1px solid rgba(255, 107, 157, 0.2);
+            position: relative;
+        }
+
+        .product-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,107,157,0.1) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .product-card:hover::before {
+            opacity: 1;
+        }
+
+        .product-card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 30px 60px rgba(255, 107, 157, 0.3);
+            border-color: rgba(255, 107, 157, 0.5);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 450px;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.1);
+        }
+
+        .product-info {
+            padding: 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .product-name {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ffb3c6;
+            font-weight: 600;
+        }
+
+        .product-desc {
+            font-size: 1.1rem;
+            color: #e6e6e6;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .product-price {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-order {
+            display: inline-block;
+            padding: 1.2rem 3rem;
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 107, 157, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-order:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 157, 0.5);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 5rem;
+            padding: 0 2rem;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 107, 157, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+            border-color: rgba(255, 107, 157, 0.5);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-title {
+            font-size: 1.3rem;
+            color: #ffb3c6;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            margin-top: 5rem;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #ff6b9d 0%, #ffa07a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            color: #ffb3c6;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .logo { font-size: 2.5rem; }
+            .tagline { font-size: 1.2rem; }
+            .section-title { font-size: 2rem; }
+            .products-grid { grid-template-columns: 1fr; }
+            .product-image { height: 350px; }
+        }
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <div class="logo">
-        <div class="mark">P&G</div>
-        <div>
-          <h1>Pepper & Glow — Boutique</h1>
-          <p class="lead">Soins naturels à base du piment du Cap Bon — cheveux & lèvres</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="logo">Pepper & Glow 🌶️</h1>
+            <p class="tagline">La Magie du Piment pour Votre Beauté</p>
         </div>
-      </div>
-    </header>
-
-    <div class="main">
-      <div>
-        <section class="catalog" id="catalog">
-          <!-- Product cards générés par JS -->
-        </section>
-
-        <div style="margin-top:14px;display:flex;gap:10px">
-          <button class="btn-secondary" onclick="clearCart()">Vider le panier</button>
-          <button class="btn-secondary" onclick="prefillDemo()">Remplir démo</button>
+        <div class="scroll-indicator">
+            <svg width="30" height="40" viewBox="0 0 30 40" fill="none">
+                <path d="M15 5 L15 30 M15 30 L10 25 M15 30 L20 25" stroke="#ff6b9d" stroke-width="2" stroke-linecap="round"/>
+            </svg>
         </div>
-      </div>
+    </section>
 
-      <aside class="cart-panel">
-        <div class="cart card">
-          <h3>Panier</h3>
-          <div class="cart-list" id="cartList">
-            <div class="meta">Votre panier est vide.</div>
-          </div>
-          <div class="totals"><span>Sous‑total</span><span id="subtotal">0 TND</span></div>
-
-          <div class="checkout">
-            <input type="text" id="clientName" placeholder="Nom (optionnel pour anonymat)" />
-            <input type="text" id="clientAddress" placeholder="Adresse de livraison" />
-            <input type="tel" id="clientPhone" placeholder="Téléphone" />
-            <select id="deliveryMethod">
-              <option value="standard">Retrait local (Nabeul) — Gratuit</option>
-              <option value="domicile">Livraison à domicile — 3 TND</option>
-            </select>
-            <textarea id="note" placeholder="Instructions / Allergies / Remarques (optionnel)"></textarea>
-            <button class="btn-primary" onclick="checkout()">Passer commande</button>
-            <button class="btn-secondary" onclick="downloadCart()">Télécharger le récap. (JSON)</button>
-          </div>
-        </div>
-      </aside>
-    </div>
-
-    <footer>© Pepper & Glow — Projet étudiant · Cap Bon (Nabeul)</footer>
-  </div>
-
-  <script>
-    // Catalogue initial
-    const products = [
-      {id: 'h01', title: 'Huile capillaire Piment & Romarin — 50ml', price: 18, desc: 'Huile naturelle pour cheveux secs et abîmés. Nourrit, fait briller.'},
-      {id: 'h02', title: 'Masque réparateur Piment — 120ml', price: 30, desc: 'Masque profond à base de piment et argan pour réparation intensive.'},
-      {id: 'l01', title: 'Baume à lèvres Piment doux — 8g', price: 9, desc: 'Baume hydratant, non collant, au parfum léger.'},
-      {id: 'l02', title: 'Gommage lèvres Piment & Sucre — 25g', price: 7, desc: 'Exfolie en douceur pour lèvres douces et lisses.'}
-    ];
-
-    // Etat du panier
-    let cart = {};
-
-    function formatPrice(v){ return v + ' TND'; }
-
-    // Génération du catalogue
-    const catalogEl = document.getElementById('catalog');
-    products.forEach(p => {
-      const card = document.createElement('article'); card.className='card';
-      card.innerHTML = `
-        <div class="product-img">${p.title.split(' ')[0]}</div>
-        <div>
-          <div class="product-title">${p.title}</div>
-          <div class="meta">${p.desc}</div>
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px">
-            <div class="price">${formatPrice(p.price)}</div>
-            <div class="controls">
-              <div class="qty"><input type="number" min="1" value="1" id="qty-${p.id}" /></div>
-              <button onclick="addToCart('${p.id}')">Ajouter</button>
+    <section class="products-section">
+        <h2 class="section-title">Nos Produits Exclusifs</h2>
+        
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="C:/Users/saafi/Downloads/WhatsApp Image 2025-12-15 at 3.47.29 AM.jpeg" alt="Bain d'Huile Pepper & Glow" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Bain d'Huile au Piment 🌶️</h3>
+                    <p class="product-desc">Formule révolutionnaire pour une croissance capillaire accélérée. Enrichi au piment rouge naturel pour stimuler le cuir chevelu et renforcer vos cheveux.</p>
+                    <div class="product-price">28 DT</div>
+                    <button class="btn-order" onclick="orderProduct('Bain d\'Huile au Piment', 28)">Commander Maintenant</button>
+                </div>
             </div>
-          </div>
-        </div>
-      `;
-      catalogEl.appendChild(card);
-    });
 
-    function addToCart(id){
-      const qtyInput = document.getElementById('qty-'+id);
-      const qty = Math.max(1, parseInt(qtyInput.value || 1));
-      const prod = products.find(x=>x.id===id);
-      if(!prod) return;
-      if(cart[id]) cart[id].qty += qty; else cart[id] = { ...prod, qty };
-      renderCart();
-    }
-
-    function renderCart(){
-      const list = document.getElementById('cartList');
-      list.innerHTML = '';
-      const keys = Object.keys(cart);
-      if(keys.length===0){ list.innerHTML = '<div class="meta">Votre panier est vide.</div>'; document.getElementById('subtotal').textContent='0 TND'; return; }
-      let subtotal = 0;
-      keys.forEach(k=>{
-        const it = cart[k];
-        const item = document.createElement('div'); item.className='cart-item';
-        item.innerHTML = `
-          <div style="flex:1">
-            <div style="font-weight:700">${it.title}</div>
-            <div class="meta">${it.qty} × ${formatPrice(it.price)}</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-weight:800">${formatPrice(it.qty*it.price)}</div>
-            <div style="margin-top:6px;display:flex;gap:6px;justify-content:flex-end">
-              <button onclick="changeQty('${k}', -1)">−</button>
-              <button onclick="changeQty('${k}', 1)">+</button>
-              <button onclick="removeItem('${k}')">Suppr</button>
+            <div class="product-card">
+                <img src="C:/Users/saafi/Downloads/WhatsApp Image 2025-12-15 at 3.47.39 AM.jpeg" alt="Lip Oil Pepper & Glow" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Lip Oil Repulpant 💋</h3>
+                    <p class="product-desc">Huile à lèvres repulpante à l'extrait de piment. Hydratation intense et effet volumateur naturel pour des lèvres sublimes et éclatantes.</p>
+                    <div class="product-price">16 DT</div>
+                    <button class="btn-order" onclick="orderProduct('Lip Oil Repulpant', 16)">Commander Maintenant</button>
+                </div>
             </div>
-          </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🌶️</div>
+                <h3 class="feature-title">100% Naturel</h3>
+                <p>Ingrédients naturels à base de piment rouge authentique</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">✨</div>
+                <h3 class="feature-title">Résultats Visibles</h3>
+                <p>Effets perceptibles dès les premières utilisations</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🇹🇳</div>
+                <h3 class="feature-title">Fabriqué en Tunisie</h3>
+                <p>Produit artisanal tunisien de haute qualité</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🚚</div>
+                <h3 class="feature-title">Livraison Rapide</h3>
+                <p>Expédition dans toute la Tunisie</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contactez-Nous</h2>
+        <p class="contact-info">📱 WhatsApp: +216 XX XXX XXX</p>
+        <p class="contact-info">📧 Email: contact@redglow.tn</p>
+        <p class="contact-info">📍 Tunis, Tunisie</p>
+    </section>
+
+    <script>
+        function orderProduct(productName, price) {
+            const message = `Bonjour! Je souhaite commander: ${productName} (${price} DT)`;
+            const phone = "216XXXXXXXX"; // Remplacez par votre numéro
+            const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Animation au scroll
+        const observerOptions = {
+            threshold: 0.2,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.product-card, .feature').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(50px)';
+            el.style.transition = 'all 0.8s ease';
+            observer.observe(el);
+        });
+
+        // Particules flottantes
+        function createFloatingParticles() {
+            const hero = document.querySelector('.hero');
+            for (let i = 0; i < 20; i++) {
+                const particle = document.createElement('div');
+                particle.style.position = 'absolute';
+                particle.style.width = Math.random() * 4 + 2 + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.background = 'rgba(255, 107, 157, 0.3)';
+                particle.style.borderRadius = '50%';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animation = `float ${Math.random() * 10 + 10}s infinite ease-in-out`;
+                particle.style.animationDelay = Math.random() * 5 + 's';
+                hero.appendChild(particle);
+            }
+        }
+
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float {
+                0%, 100% { transform: translate(0, 0); }
+                25% { transform: translate(20px, -30px); }
+                50% { transform: translate(-20px, -60px); }
+                75% { transform: translate(10px, -30px); }
+            }
         `;
-        list.appendChild(item);
-        subtotal += it.qty * it.price;
-      });
-      // delivery cost
-      const delivery = document.getElementById('deliveryMethod')?.value === 'domicile' ? 3 : 0;
-      document.getElementById('subtotal').textContent = formatPrice(subtotal + delivery);
-    }
-
-    function changeQty(id, delta){
-      if(!cart[id]) return;
-      cart[id].qty += delta;
-      if(cart[id].qty <= 0) delete cart[id];
-      renderCart();
-    }
-    function removeItem(id){ delete cart[id]; renderCart(); }
-
-    function clearCart(){ if(confirm('Vider le panier ?')){ cart = {}; renderCart(); } }
-
-    function checkout(){
-      const keys = Object.keys(cart);
-      if(keys.length===0){ alert('Votre panier est vide.'); return; }
-      const name = document.getElementById('clientName').value.trim();
-      const address = document.getElementById('clientAddress').value.trim();
-      const phone = document.getElementById('clientPhone').value.trim();
-      const note = document.getElementById('note').value.trim();
-      const delivery = document.getElementById('deliveryMethod').value;
-
-      if(!address && delivery==='domicile'){ alert('Veuillez indiquer une adresse pour la livraison.'); return; }
-      if(!phone){ if(!confirm('Vous n\'avez pas indiqué de téléphone — continuer ?')) return; }
-
-      const order = {
-        id: 'PG-' + Date.now(), date: new Date().toISOString(), name, address, phone, note, delivery,
-        items: Object.values(cart).map(i=>({id:i.id,title:i.title,qty:i.qty,price:i.price})),
-      };
-
-      // Simuler enregistrement (ici console puis téléchargement du récapitulatif)
-      console.log('Commande simulée :', order);
-      alert('Merci ! Votre commande a été simulée. Un fichier récapitulatif va être téléchargé.');
-      // télécharger JSON
-      const blob = new Blob([JSON.stringify(order, null, 2)], {type:'application/json'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url; a.download = order.id + '.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
-
-      // Reset
-      cart = {};
-      renderCart();
-      document.getElementById('clientName').value='';
-      document.getElementById('clientAddress').value='';
-      document.getElementById('clientPhone').value='';
-      document.getElementById('note').value='';
-    }
-
-    function downloadCart(){
-      const order = { items: Object.values(cart), date: new Date().toISOString() };
-      const blob = new Blob([JSON.stringify(order, null, 2)], {type:'application/json'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url; a.download = 'panier_pepper_and_glow.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
-    }
-
-    function prefillDemo(){
-      cart = {};
-      cart['h01'] = {...products[0], qty:1};
-      cart['l01'] = {...products[2], qty:2};
-      renderCart();
-      alert('Panier de démonstration chargé.');
-    }
-
-    // mise à jour du coût de livraison en temps réel
-    document.getElementById('deliveryMethod').addEventListener('change', renderCart);
-
-    // initial render
-    renderCart();
-  </script>
+        document.head.appendChild(style);
+        createFloatingParticles();
+    </script>
 </body>
 </html>
+    
